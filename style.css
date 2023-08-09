@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(165, 42, 42, 0.2);
+}
+nav{
+    background-image: url(https://www.nescafe.com/in/sites/default/files/coffee-beans-header-desktop_0.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 15px 0;
+    margin-bottom: 50px;
+}
+#search{
+    position: sticky;
+    height: 50px;
+    width: 70%;
+    background-color:rgb(99, 18, 18,1) ;
+    align-items: center;
+    top: 50px;
+    left: 15%;
+    border-radius: 8px;
+    color: white;
+}
+#category{
+
+    display: flex;
+    height: 350px;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+#category img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 0;
+}
+
+.contents{
+    background-color: rgb(165, 42, 42, 0.3);
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px brown;
+}
+.contents h1,p{
+    color: brown;
+    padding-top: 20px;
+    padding-left: 20px;
+}
